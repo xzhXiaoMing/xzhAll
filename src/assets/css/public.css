@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  body {
+    background-color:#F5F7FC;
+  }
+  ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+/* 左右居中 */
+.layout_about{
+    display:flex;
+    justify-content: space-between;
+}
+
+/* 标题 */
+.titleAll{
+    font-size:1.125rem;
+    color: #364C6E;
+    font-weight: 600;
+}
+
+/* 大小 */
+.size_15{
+    width:1.5rem;
+    height:1.5rem;
+}
+
+/* 自适应大小 */
+.self-adaption{
+    width: 100%;
+}
+
+/* 变块 */
+.block-level{
+    display: block;
+}
+
+.block-flex{
+    display:flex;  
+}
+
+/* 间距 */
+.spacing{
+    padding:1rem 0.85rem 0rem 0.85rem;
+}
+
+.spacin{
+    padding: 1.25rem;
+}
+.margintop-16{
+    margin-top:1rem
+}
+
+/* 字号 */
+.fontsize-14{
+    font-size: 0.875rem;
+}
+
+.fontsize-16{
+    font-size: 1rem;
+}
+
+/* 行高 */
+.lineheight-20{
+    line-height: 1.25rem;
+}
+
+/* 文本不折行，超出... */
+.Text-folding{
+    white-space: nowrap; /* 文字不换行 */
+    text-overflow: ellipsis; /* 以省略号表示超出的部分 */
+    overflow: hidden; /* 超出容器的部分隐藏 */
+}
+
+.Text-folding2{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* 最大显示行数 */
+    overflow: hidden;
+    text-overflow: ellipsis; /* 以省略号表示超出的部分 */
+    
+}
+
+/* 字体颜色 */
+.color1{
+    color:#0F1F45 ;
+}
+
+.color2{
+    color:#fff ;
+}
+
+.color3{
+    color: #64708E;
+}
+
+/* 字体加粗 */
+.jiacu{
+    font-weight: 600;
+}
+
+/* 背景色 */
+.back-fff{
+    background-color: #fff;
+}
+.back-zts{
+    background-color: #287EF1;
+}
+/* 圆角 */
+.redius8{
+    border-radius: 0.5rem;
+}
+
+/* 溢出隐藏 */
+.overflow{
+    overflow: hidden;
+}
